@@ -1,0 +1,12 @@
+.depend
+*.o
+*.d
+*~
+sicat2
+log
+#
+# to create empty directory and add it to repository:
+# mkdir log
+# and put following .gitignore file
+# *
+# !.gitignore
