@@ -11,6 +11,8 @@ OBJS += $(PROG).o
 OBJS += my_socket.o
 OBJS += readn.o
 OBJS += logUtil.o
+OBJS += set_timer.o
+OBJS += my_signal.o
 $(PROG): $(OBJS)
 
 clean:
